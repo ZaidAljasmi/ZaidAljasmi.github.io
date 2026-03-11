@@ -25,16 +25,17 @@ jobs:
           fetch-depth: 0
 
       - name: Setup Hugo
-        uses: peaceiris/actions-hugo@v2
+        uses: peaceiris/actions-hugo@v3 # تحديث للإصدار v3
         with:
-          hugo-version: 'latest'
+          hugo-version: 'latest' # استخدام أحدث إصدار تلقائياً
           extended: true
 
       - name: Build with Hugo
-        run: hugo --minify
+        run: |
+          hugo --minify --baseURL "https://ZaidAljasmi.github.io/"
 
       - name: Upload artifact
-        uses: actions/upload-pages-artifact@v2
+        uses: actions/upload-pages-artifact@v3 # تحديث للإصدار v3
         with:
           path: ./public
 
@@ -47,4 +48,4 @@ jobs:
     steps:
       - name: Deploy to GitHub Pages
         id: deployment
-        uses: actions/deploy-pages@v2
+        uses: actions/deploy-pages@v4 # تحديث للإصدار v4
