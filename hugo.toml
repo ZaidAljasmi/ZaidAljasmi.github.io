@@ -1,0 +1,35 @@
+baseurl = "https://ZaidAljasmi.github.io/"
+languageCode = "en-us"
+title = "Zaid Aljasmi"
+theme = "terminal"
+
+[params]
+  # المجلد الذي يحتوي على مقالاتك
+  contentTypeName = "posts"
+  hideCopyright = true
+  hideThemeInfo = true
+
+  [params.logo]
+    # الشعار الذي يظهر في الزاوية العلوية
+    logoText = "Zaid Aljasmi"
+    logoHomeLink = "/"
+
+[languages]
+  [languages.en]
+    languageName = "English"
+    title = "Zaid Aljasmi's Space"
+    subtitle = "Free Software Enthusiast"
+
+    [languages.en.menu]
+      [[languages.en.menu.main]]
+        identifier = "about"
+        name = "About Me"
+        url = "/about"
+      [[languages.en.menu.main]]
+        identifier = "posts"
+        name = "Blog"
+        url = "/posts"
+      [[languages.en.menu.main]]
+        identifier = "free-software"
+        name = "Free Software"
+        url = "/free-software"
