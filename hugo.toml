@@ -2,14 +2,14 @@ baseURL = "https://zaidaljasmi.github.io/"
 languageCode = "en-us"
 title = "Zaid Aljasmi"
 theme = "terminal"
-# customCSS = ["css/terminal.css"]
 
 [params]
   # المجلد الذي يحتوي على مقالاتك
   contentTypeName = "posts"
   hideCopyright = true
   hideThemeInfo = true
-  customCSS = ["terminal.css"]
+  # تم تعطيل هذا لأننا أضفناه يدوياً في ملف head.html لضمان الأولوية
+  # customCSS = ["terminal.css"]
 
   [params.logo]
     # الشعار الذي يظهر في الزاوية العلوية
@@ -20,7 +20,10 @@ theme = "terminal"
   [languages.en]
     languageName = "English"
     title = "Zaid Aljasmi's Space"
-    subtitle = "Free Software Enthusiast"
+
+    # تم نقل السطر التالي إلى قسم params الخاص باللغة لإصلاح خطأ الإصدارات الحديثة
+    [languages.en.params]
+      subtitle = "Free Software Enthusiast"
 
     [languages.en.menu]
       [[languages.en.menu.main]]

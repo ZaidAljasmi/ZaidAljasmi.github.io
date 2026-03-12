@@ -1,5 +1,7 @@
-+++
-title = 'Hello World'
-date = 2026-03-08T00:42:18+03:00
-draft = true
-+++
+---
+title: "Hello World"
+date: 2026-03-12T03:40:00+03:00
+draft: false
+---
+
+Hello World!
