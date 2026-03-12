@@ -1,4 +1,4 @@
-baseurl = "https://ZaidAljasmi.github.io/"
+baseURL = "https://zaidaljasmi.github.io/"
 languageCode = "en-us"
 title = "Zaid Aljasmi"
 theme = "terminal"
