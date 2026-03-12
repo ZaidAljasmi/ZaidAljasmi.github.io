@@ -32,7 +32,7 @@ theme = "terminal"
         url = "/about"
       [[languages.en.menu.main]]
         identifier = "posts"
-        name = "Blog"
+        name = "posts"
         url = "/posts"
       [[languages.en.menu.main]]
         identifier = "free-software"
