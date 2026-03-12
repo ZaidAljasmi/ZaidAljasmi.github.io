@@ -2,6 +2,7 @@ baseURL = "https://zaidaljasmi.github.io/"
 languageCode = "en-us"
 title = "Zaid Aljasmi"
 theme = "terminal"
+customCSS = ["css/terminal.css"]
 
 [params]
   # المجلد الذي يحتوي على مقالاتك
